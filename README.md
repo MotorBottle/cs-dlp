@@ -1,6 +1,6 @@
 # cs-dlp
 
-##How to Use
+## How to Use
 
 From a command line (preferably, from a virtual environment), simply issue
 the command:
