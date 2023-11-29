@@ -38,7 +38,7 @@ Use the CAUTH Cookie with cs-dlp:
 
 Now that you have copied the CAUTH cookie value, you can use it with the cs-dlp script. When running the script, use the --cauth option followed by the copied CAUTH cookie value.
 
-    python cs-dlp --cauth YOUR_COPIED_CAUTH_COOKIE course-name
+    python cs_dlp --cauth YOUR_COPIED_CAUTH_COOKIE course-name
     
 Replace YOUR_COPIED_CAUTH_COOKIE with the actual value you copied and course-name with the name of the Coursera course you want to download.
 
