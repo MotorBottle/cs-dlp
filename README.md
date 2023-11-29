@@ -1,5 +1,47 @@
 # cs-dlp
 
+##How to Use
+
+From a command line (preferably, from a virtual environment), simply issue
+the command:
+
+    git clone https://github.com/MotorBottle/cs-dlp
+    cd cs-dlp
+    python -m pip install --user .
+
+**Note 1:** We strongly recommend that you *don't* install the package
+globally on your machine (i.e., with root/administrator privileges), as the
+installed modules may conflict with other Python applications that you have
+installed in your system. Prefer to use the option `--user` to `pip install`.
+
+Log In to Coursera in Your Web Browser:
+
+Open your preferred web browser and go to the Coursera website (https://www.coursera.org).
+Log in to your Coursera account if you are not already logged in.
+Access Browser Developer Tools:
+
+Open the developer tools of your web browser. You can typically access it by right-clicking on the Coursera webpage and selecting "Inspect" or "Inspect Element." Alternatively, you can use keyboard shortcuts like Ctrl + Shift + I on Windows/Linux or Cmd + Option + I on macOS.
+Go to the "Application" or "Storage" Tab:
+
+In the developer tools, look for a tab named "Application" or "Storage." This tab may vary depending on your browser.
+Expand "Cookies":
+
+In the "Application" or "Storage" tab, expand the "Cookies" section. You should see a list of domains associated with the website.
+Locate the Coursera Cookie:
+
+Look for a domain that includes "coursera.org." It may be something like "www.coursera.org" or "coursera.org."
+Under this domain, you should see various cookies, including one named "CAUTH."
+Copy the CAUTH Cookie:
+
+Right-click on the "CAUTH" cookie and select "Copy" or manually copy its value.
+Use the CAUTH Cookie with cs-dlp:
+
+Now that you have copied the CAUTH cookie value, you can use it with the cs-dlp script. When running the script, use the --cauth option followed by the copied CAUTH cookie value.
+
+    python cs-dlp --cauth YOUR_COPIED_CAUTH_COOKIE course-name
+    
+Replace YOUR_COPIED_CAUTH_COOKIE with the actual value you copied and course-name with the name of the Coursera course you want to download.
+
 This is a fork of [coursera-dl](https://github.com/coursera-dl/coursera-dl) that works with modern Python and modern coursera.org, with added features and patches.
 
 <!-- [![Build Status](https://travis-ci.org/coursera-dl/coursera-dl.svg?branch=master)](https://travis-ci.org/coursera-dl/coursera-dl) -->
