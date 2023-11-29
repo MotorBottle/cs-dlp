@@ -42,6 +42,9 @@ Now that you have copied the CAUTH cookie value, you can use it with the cs-dlp 
     
 Replace YOUR_COPIED_CAUTH_COOKIE with the actual value you copied and course-name with the name of the Coursera course you want to download.
 
+_________________________________________________________________
+
+
 This is a fork of [coursera-dl](https://github.com/coursera-dl/coursera-dl) that works with modern Python and modern coursera.org, with added features and patches.
 
 <!-- [![Build Status](https://travis-ci.org/coursera-dl/coursera-dl.svg?branch=master)](https://travis-ci.org/coursera-dl/coursera-dl) -->
