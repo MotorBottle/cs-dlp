@@ -100,7 +100,7 @@ particular courses that you want to use with `cs-dlp`.
 From a command line (preferably, from a virtual environment), simply issue
 the command:
 
-    git clone https://github.com/raffaem/cs-dlp
+    git clone https://github.com/MotorBottle/cs-dlp
     cd cs-dlp
     python -m pip install --user .
 
